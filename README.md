@@ -3,6 +3,10 @@
 LizardFS is a highly reliable, scalable and efficient distributed file system. It spreads data over a number of physical servers, making it visible to an end user as a single file system.
 
 Here is a short handbook on lizardfs cluster configuration. 
+## Architecture
+<p align="center">
+  <img src="./assets/lfs.png" />
+</p>
 
 
 ## The /etc/hosts file
@@ -11,7 +15,6 @@ Here is a short handbook on lizardfs cluster configuration.
 ```
 
 Example:
-
 ```bash
 127.0.0.1        localhost
 192.168.16.100   mfsmaster
